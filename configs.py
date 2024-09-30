@@ -29,26 +29,26 @@ if HAS_SSL:
 else:
     URL = "http://{}/".format(FQDN)
 UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', None))
-BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001987654567")).split())) 
-STREAM_LOGS = environ.get('STREAM_LOGS','-1001895607162')
+BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1002301641028")).split())) 
+STREAM_LOGS = environ.get('STREAM_LOGS','-1002316219757')
 SESSION = environ.get('SESSION','MissRozy')
 CUSTOM_CAPTION = environ.get('CUSTOM_CAPTION')
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", 6124083))
-	API_HASH = os.environ.get("API_HASH", "dea33b35fcbfbff6b79cc2e992d943e5")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN","7131132136:AAGjPKNTRVQX6QGEgs5jVmKbIhYC76QeCSQ")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "MissLazy_BOT")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002053724452))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6514260583"))
+	API_ID = int(os.environ.get("API_ID", 27634238))
+	API_HASH = os.environ.get("API_HASH", "f892961f93178c81c36ddccfe082e06e")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","7264855002:AAHzIFlUTgNi7Ij95tAjNZia_GpGQqnGMZA")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "cc_Chemcker_roBot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", -1002442920122))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "6490007953"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://lazydeveloperr:lazydeveloperr@Cluster0.lpvunl5.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002053724452")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002071133029")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002437186657")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002347198754")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
-	LAZY_CHANNEL = int(os.environ.get('LAZY_CHANNEL','-1002037762111'))
+	LAZY_CHANNEL = int(os.environ.get('LAZY_CHANNEL','-100'))
 	LAZY_MODE = bool(os.environ.get("LAZY_MODE", False))
 	LAZY_PIC = os.environ.get("LAZY_PIC","https://telegra.ph/file/d382d2fad1fdd2a4ccca4.png")
 	LP_BTN_MAIN_CH_USRNM = os.environ.get("LP_BTN_MAIN_CH_USRNM")
@@ -56,7 +56,7 @@ class Config(object):
 	LPCH_ADMIN_USRMN = os.environ.get("LPCH_ADMIN_USRMN")
 	LP_CUSTOM_TEMPLATE= os.environ.get("LP_CUSTOM_TEMPLATE")
   # LP_CUSTOM_TEMPLATE= os.environ.get("LP_CUSTOM_TEMPLATE","{file_name} - example \n\n Please Upadate this template acording to you @LazyDeveloperr ")
-	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
+	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1002448054245 -1002332530840").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	AUTO_DELETE_TIME = int(os.environ.get('AUTO_DELETE_TIME', 20))
 
@@ -101,6 +101,3 @@ HΞУ, [{}](tg://user?id={})\n\nɪ'ᴍ ᴀ ᴘᴇʀᴍᴀɴᴇɴᴛ **ꜰɪʟᴇ
 «[⚡️𝙇𝙖𝙯𝙮 𝙢𝙤𝙙𝙚 𝙨𝙩𝙖𝙩𝙪𝙨 : 𝘋𝘐𝘚𝘈𝘉𝘓𝘌𝘋💢]»
  😏𝙣𝙤𝙬 𝙞𝙩𝙨 𝙖𝙡𝙡 𝙪𝙥𝙤𝙣 𝙪 𝙗𝙖𝙗𝙮👍
 """
-
-
-
